@@ -157,7 +157,7 @@ public class Day12 {
 		}
 		
 		
-		driver.quit();
+		//driver.quit();
 		
 	}
 
