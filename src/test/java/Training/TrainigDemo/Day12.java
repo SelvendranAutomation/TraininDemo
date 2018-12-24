@@ -23,7 +23,7 @@ public class Day12 {
 	public void test_01(){
 		
 		System.out.println("Launching Chrome browser..");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Desktop\\BackupDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src/main/inputFile/resorces/chromedriver.exe");
 
 		WebDriver driver=new ChromeDriver();
 		
@@ -119,7 +119,7 @@ public class Day12 {
 	public void test_03(){
 		
 		System.out.println("Launching Chrome browser..");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Desktop\\BackupDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src/main/inputFile/resorces/chromedriver.exe");
 
 		WebDriver driver=new ChromeDriver();
 		
@@ -157,7 +157,7 @@ public class Day12 {
 		}
 		
 		
-		//driver.quit();
+		driver.quit();
 		
 	}
 
